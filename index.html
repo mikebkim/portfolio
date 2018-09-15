@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script defer src="js/main.js"></script>
+    <title>Mike's Portfolio</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <ul class="nav fixed-top">
+        <li class="nav-item">
+            <a class="nav-link" href="#aboutme">About Me</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+        </li>
+    </ul>
+
+    <!-- Back to Top -->
+    <a href="javascript:" id="return-to-top"><span class="back-to-top">^</span></a>
+
+    <!-- Banner -->
+    <div class="banner"></div>
+    <div class="container-fluid">
+        <div class="caption">
+            <span>Mike Kim</span><br>
+            <span>Web Developer</span><br>
+            <p class="about-me-link"><a href="#aboutme"> Who Am I? </a> </p>
+        </div>
+    </div>
+
+    <!-- About Me -->
+    <div id="aboutme"></div>
+    <h1>About Me</h1>
+    <div>
+        <p>I am motivated by enabling others to create and share meaningful experiences. I am a learner to the core,
+            and thrive in fast-paced environments where I’m being challenged
+            every day. I want to develop applications that can actually help people within their daily lives.</p>
+    </div>
+
+    <!-- Skills -->
+    <div id="skills"></div>
+    <h1>Skills</h1>
+
+    <div class="what-i-do-panel">
+        <div class="design-panel">
+            <h3 class="category-text">Creative</h3>
+            <br />
+            <p>I create clean designs that allow my clients to bring their visions to life.</p>
+            <br />
+            <img src="#">
+        </div>
+
+        <div class="responsive-panel">
+            <h3 class="category-text">Responsive</h3>
+            <br />
+            <p>I build functional sites that are intuitive and easy to follow.</p>
+            <br />
+            <img src="#">
+        </div>
+    </div>
+
+    <table class="skills">
+        <tr>
+            <td class="td-title">Languages:</td>
+            <td class="td-skill">HTML</td>
+            <td class="td-skill">CSS</td>
+            <td class="td-skill">JavaScript</td>
+            <td class="td-skill">Ruby</td>
+            <td class="td-skill">SQL</td>
+        </tr>
+        <tr>
+            <td class="td-title">Frameworks:</td>
+            <td class="td-skill">Rails</td>
+            <td class="td-skill">Node</td>
+            <td class="td-skill">Bootstrap</td>
+            <td class="td-skill">Bulma</td>
+        </tr>
+        <tr>
+            <td class="td-title">Ancillary:</td>
+            <td class="td-skill">React.js</td>
+            <td class="td-skill">Express</td>
+            <td class="td-skill">jQuery</td>
+        </tr>
+    </table>
+
+
+    <!-- Projects -->
+    <div id="projects"></div>
+    <div class="projects-section">
+        <h1>Projects</h1>
+        <div class="project-cards">
+            <img class="project-images" src="https://i.imgur.com/xnVuCLF.png">
+            <img class="project-images" src="https://i.imgur.com/hl0Ghkp.png">
+            <img class="project-images" src="https://i.imgur.com/mXZ6S9g.png">
+            <img class="project-images" src="https://i.imgur.com/xpsR09E.png">
+        </div>
+    </div>
+
+    <!-- Resume -->
+    <div id="resume"></div>
+    <h1>Resume</h1>
+    <form method="get" action="file.doc">
+        <button class="btn btn-success" type="submit">Download!</button>
+    </form>
+
+    <!-- Footer -->
+    <div id="contact"></div>
+    <footer class="page-footer font-small mdb-color pt-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left mt-3 pb-3">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
+                    <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor
+                        sit amet, consectetur
+                        adipisicing elit.</p>
+                </div>
+                <hr class="w-100 clearfix d-md-none">
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                    <p><a href="#!">MDBootstrap</a></p>
+                    <p><a href="#!">MDWordPress</a></p>
+                    <p><a href="#!">BrandFlow</a></p>
+                    <p><a href="#!">Bootstrap Angular</a></p>
+                </div>
+                <hr class="w-100 clearfix d-md-none">
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                    <p><a href="#!">Your Account</a></p>
+                    <p><a href="#!">Become an Affiliate</a></p>
+                    <p><a href="#!">Shipping Rates</a></p>
+                    <p><a href="#!">Help</a></p>
+                </div>
+                <hr class="w-100 clearfix d-md-none">
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                    <p><i class="fa fa-home mr-3"></i> Los Angeles, CA 90405, US</p>
+                    <p><i class="fa fa-envelope mr-3"></i> mikebkim@gmail.com</p>
+                    <p><i class="fa fa-phone mr-3"></i> 310-729-7796</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row d-flex align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p class="text-center text-md-left">© 2018 Copyright: Mike Kim</p>
+                </div>
+                <div class="col-md-5 col-lg-4 ml-lg-0">
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/mikebkim/" class="btn-floating btn-sm rgba-white-slight mx-1"
+                                    target="_blank">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/mike.kim.3766" class="btn-floating btn-sm rgba-white-slight mx-1"
+                                    target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/mikebkim" class="btn-floating btn-sm rgba-white-slight mx-1"
+                                    target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/mikebkim/" class="btn-floating btn-sm rgba-white-slight mx-1"
+                                    target="_blank">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

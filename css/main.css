@@ -1,0 +1,183 @@
+* {
+    font-family: Calibri, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: inline;
+    justify-content: center;
+    text-align: center;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+}
+
+.banner {
+    position: relative;
+    background-image: url("");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card-img-top {
+    height: 150px;
+    width: 200px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.td-title {
+    font-size: 16px;
+}
+
+.td-skill {
+    justify-content: center;
+    align-items: center;
+}
+
+.td-skill:hover {
+    background-color: white;
+    border: solid white 5px;
+    color: black;
+}
+
+/* About Me */
+
+p {
+    text-align: center;
+}
+
+.what-i-do-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.what-i-do-panel img {
+    width: 10vw;
+    height: 10vh;
+}
+
+.design-panel, .responsive-panel {
+    width: 30%;
+    margin: 20px 30px;
+    font-family: 'Questrial', sans-serif;
+}
+
+/* Projects */
+
+.project-images {
+    height: 50%;
+    width: 50%;
+    border: solid white 5px;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Resume */
+.btn.btn-success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Back to Top */
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.back-to-top {
+    color: white;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
