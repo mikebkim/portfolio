@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -42,7 +43,7 @@
     </ul>
 
     <!-- Back to Top -->
-    <a href="javascript:" id="return-to-top"><span class="back-to-top">^</span></a>
+    <a href="javascript:" id="return-to-top"><span class="fa fa-arrow-circle-up"></span></a>
 
     <!-- Banner -->
     <div class="banner"></div>
@@ -50,30 +51,69 @@
         <div class="caption">
             <span>Mike Kim</span><br>
             <span>Web Developer</span><br>
-            <p class="about-me-link"><a href="#aboutme"> Who Am I? </a> </p>
+            <p><a href="#aboutme" class="about-me-link">Who Am I?</a></p>
+            <div class="text-center">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/mikebkim/" class="btn-floating btn-sm rgba-white-slight mx-1"
+                            target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/mike.kim.3766" class="btn-floating btn-sm rgba-white-slight mx-1"
+                            target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/mikebkim" class="btn-floating btn-sm rgba-white-slight mx-1"
+                            target="_blank">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/mikebkim/" class="btn-floating btn-sm rgba-white-slight mx-1"
+                            target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://soundcloud.com/mikekim-1" class="btn-floating btn-sm rgba-white-slight mx-1"
+                            target="_blank">
+                            <i class="fa fa-soundcloud"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
     <!-- About Me -->
     <div id="aboutme"></div>
-    <h1>About Me</h1>
+    <h1>- About Me -</h1>
     <div>
-        <p>I am motivated by enabling others to create and share meaningful experiences. I am a learner to the core,
+        <p class="aboutme-p">I am motivated by enabling others to create and share meaningful experiences. I am a
+            learner to the core,
             and thrive in fast-paced environments where I’m being challenged
             every day. I want to develop applications that can actually help people within their daily lives.</p>
+        <p class="aboutme-p">I also love to produce music!</p>
+        <form method="get" action="https://soundcloud.com/mikekim-1" target="_blank">
+            <button class="btn btn-success" type="submit">My Music</button>
+        </form>
     </div>
+
 
     <!-- Skills -->
     <div id="skills"></div>
-    <h1>Skills</h1>
-
-    <div class="what-i-do-panel">
-        <div class="design-panel">
+    <h1>- Skills -</h1>
+    <div class="skills-panel">
+        <div class="creative-panel">
             <h3 class="category-text">Creative</h3>
             <br />
             <p>I create clean designs that allow my clients to bring their visions to life.</p>
             <br />
-            <img src="#">
+            <i class="fa fa-paint-brush"></i>
         </div>
 
         <div class="responsive-panel">
@@ -81,86 +121,112 @@
             <br />
             <p>I build functional sites that are intuitive and easy to follow.</p>
             <br />
-            <img src="#">
+            <i class="fa fa-circle-o-notch"></i>
         </div>
     </div>
 
-    <table class="skills">
-        <tr>
-            <td class="td-title">Languages:</td>
-            <td class="td-skill">HTML</td>
-            <td class="td-skill">CSS</td>
-            <td class="td-skill">JavaScript</td>
-            <td class="td-skill">Ruby</td>
-            <td class="td-skill">SQL</td>
-        </tr>
-        <tr>
-            <td class="td-title">Frameworks:</td>
-            <td class="td-skill">Rails</td>
-            <td class="td-skill">Node</td>
-            <td class="td-skill">Bootstrap</td>
-            <td class="td-skill">Bulma</td>
-        </tr>
-        <tr>
-            <td class="td-title">Ancillary:</td>
-            <td class="td-skill">React.js</td>
-            <td class="td-skill">Express</td>
-            <td class="td-skill">jQuery</td>
-        </tr>
-    </table>
 
+    <!-- Languages & Tools -->
+
+    <h1>- Languages & Tools -</h1>
+    <div class="dropdown">
+        <p class="skills-item">HTML</p>
+        <p class="skills-item">CSS</p>
+        <p class="skills-item">JavaScript</p>
+        <p class="skills-item">Ruby on Rails</p>
+        <p class="skills-item">MongoDB</p>
+        <p class="skills-item">React</p>
+        <p class="skills-item">Express</p>
+        <p class="skills-item">Node</p>
+        <br>
+        <p class="skills-item">_______</p>
+        <br>
+        <p class="skills-item">Git / GitHub</p>
+        <p class="skills-item">JIRA</p>
+        <p class="skills-item">Heroku</p>
+        <p class="skills-item">VS Code / Sublime</p>
+        <p class="skills-item">Trello</p>
+    </div>
 
     <!-- Projects -->
+
     <div id="projects"></div>
-    <div class="projects-section">
-        <h1>Projects</h1>
-        <div class="project-cards">
-            <img class="project-images" src="https://i.imgur.com/xnVuCLF.png">
-            <img class="project-images" src="https://i.imgur.com/hl0Ghkp.png">
-            <img class="project-images" src="https://i.imgur.com/mXZ6S9g.png">
-            <img class="project-images" src="https://i.imgur.com/xpsR09E.png">
+    <h1>- Projects -</h1>
+    <div class="projects-flex">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="https://i.imgur.com/y9Qv7P4.png" alt="">
+                <div class="overlay">
+                    <h2>Marble</h2>
+                    <p>
+                        <a href="#">LINK HERE</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="https://i.imgur.com/HYAOWEm.png" alt="">
+                <div class="overlay">
+                    <h2>game.it</h2>
+                    <p>
+                        <a href="#">LINK HERE</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="https://i.imgur.com/zq5BFK2.png" alt="">
+                <div class="overlay">
+                    <h2>Sessions</h2>
+                    <p>
+                        <a href="#">LINK HERE</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="https://i.imgur.com/vPL9pko.png" alt="">
+                <div class="overlay">
+                    <h2>Blackjack</h2>
+                    <p>
+                        <a href="#">LINK HERE</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- Resume -->
     <div id="resume"></div>
-    <h1>Resume</h1>
-    <form method="get" action="https://drive.google.com/drive/folders/1rPso-rlVg1KqBJsShqhlcirWPB9HKkxR">
-        <button class="btn btn-success" type="submit">Download!</button>
+    <h1>- Resume -</h1>
+    <form method="get" action="https://drive.google.com/drive/folders/1rPso-rlVg1KqBJsShqhlcirWPB9HKkxR" target="_blank">
+        <button class="btn btn-success" type="submit">Download</button>
     </form>
+
 
     <!-- Footer -->
     <div id="contact"></div>
-    <footer class="page-footer font-small mdb-color pt-4">
+    <footer class="page-footer font-small pt-4">
         <div class="container text-center text-md-left">
             <div class="row text-center text-md-left mt-3 pb-3">
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
-                    <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor
-                        sit amet, consectetur
-                        adipisicing elit.</p>
-                </div>
-                <hr class="w-100 clearfix d-md-none">
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-                    <p><a href="#!">MDBootstrap</a></p>
-                    <p><a href="#!">MDWordPress</a></p>
-                    <p><a href="#!">BrandFlow</a></p>
-                    <p><a href="#!">Bootstrap Angular</a></p>
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact Me</h6>
+                    <p>Have any questions? Feel free to contact me!</p>
                 </div>
                 <hr class="w-100 clearfix d-md-none">
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                     <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-                    <p><a href="#!">Your Account</a></p>
-                    <p><a href="#!">Become an Affiliate</a></p>
-                    <p><a href="#!">Shipping Rates</a></p>
-                    <p><a href="#!">Help</a></p>
+                    <p><a href="https://drive.google.com/drive/folders/1rPso-rlVg1KqBJsShqhlcirWPB9HKkxR" target="_blank">Resume</a></p>
+                    <p><a href="https://soundcloud.com/mikekim-1" target="_blank">My Music</a></p>
                 </div>
                 <hr class="w-100 clearfix d-md-none">
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                    <p><i class="fa fa-home mr-3"></i> Los Angeles, CA 90405, US</p>
-                    <p><i class="fa fa-envelope mr-3"></i> mikebkim@gmail.com</p>
+                    <p><i class="fa fa-home mr-3"></i> Los Angeles, CA</p>
+                    <p><i class="fa fa-envelope mr-3"></i>mikebkim@gmail.com</a></p>
                     <p><i class="fa fa-phone mr-3"></i> 310-729-7796</p>
                 </div>
             </div>
@@ -175,25 +241,25 @@
                             <li class="list-inline-item">
                                 <a href="https://www.linkedin.com/in/mikebkim/" class="btn-floating btn-sm rgba-white-slight mx-1"
                                     target="_blank">
-                                    <i class="fa fa-linkedin"></i>
+                                    <i class="fa fa-linkedin foot"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="https://www.facebook.com/mike.kim.3766" class="btn-floating btn-sm rgba-white-slight mx-1"
                                     target="_blank">
-                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-facebook foot"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="https://twitter.com/mikebkim" class="btn-floating btn-sm rgba-white-slight mx-1"
                                     target="_blank">
-                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-twitter foot"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="https://www.instagram.com/mikebkim/" class="btn-floating btn-sm rgba-white-slight mx-1"
                                     target="_blank">
-                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-instagram foot"></i>
                                 </a>
                             </li>
                         </ul>
