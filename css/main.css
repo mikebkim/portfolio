@@ -331,6 +331,26 @@ thead, tfoot {
     font-size: 20px;
 }
 
+.fa.fa-linkedin.foot:hover, .fa.fa-linkedin:hover {
+    color: #0073B2;
+}
+
+.fa.fa-twitter.foot:hover, .fa.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa.fa-soundcloud.foot:hover, .fa.fa-soundcloud:hover {
+    color: #FF7200;
+}
+
+.fa.fa-facebook.foot:hover, .fa.fa-facebook:hover {
+    color: #4267B2;
+}
+
+.fa.fa-instagram.foot:hover, .fa.fa-instagram:hover {
+    color: #E43960;
+}
+
 .fa.fa-linkedin.foot, .fa.fa-facebook.foot, .fa.fa-twitter.foot, .fa.fa-instagram.foot, .fa.fa-soundcloud.foot {
     color: white;
     font-size: 20px;
