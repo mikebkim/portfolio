@@ -385,10 +385,7 @@ thead, tfoot {
     font-size: 20px;
 }
 
-.fa.fa-circle-o-notch {
-    color: black;
-    font-size: 50px;
-}
+/* Paint Brush */
 
 .fa.fa-paint-brush {
     background: -webkit-linear-gradient(violet, indigo, blue, green, yellow, orange, red);
@@ -397,48 +394,43 @@ thead, tfoot {
     font-size: 50px;
 }
 
-@-webkit-keyframes hvr-buzz {
+@-webkit-keyframes swinging {
+    0% {
+        -webkit-transform: rotate(15deg);
+    }
     50% {
-        -webkit-transform: translateX(3px) rotate(2deg);
-        transform: translateX(3px) rotate(2deg);
+        -webkit-transform: rotate(-5deg)
     }
     100% {
-        -webkit-transform: translateX(-3px) rotate(-2deg);
-        transform: translateX(-3px) rotate(-2deg);
+        -webkit-transform: rotate(15deg);
     }
 }
 
-@keyframes hvr-buzz {
+@keyframes swinging {
+    0% {
+        transform: rotate(15deg);
+    }
     50% {
-        -webkit-transform: translateX(3px) rotate(2deg);
-        transform: translateX(3px) rotate(2deg);
+        transform: rotate(-5deg)
     }
     100% {
-        -webkit-transform: translateX(-3px) rotate(-2deg);
-        transform: translateX(-3px) rotate(-2deg);
+        transform: rotate(15deg);
     }
 }
 
-.hvr-buzz {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-
-.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
-    -webkit-animation-name: hvr-buzz;
-    animation-name: hvr-buzz;
-    -webkit-animation-duration: .5s;
-    animation-duration: .5s;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
+.fa.fa-paint-brush.swing {
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 1.3s ease-in-out forwards infinite;
+    animation: swinging 1.3s ease-in-out forwards infinite;
 }
 
 /* Circle Notch */
+
+.fa.fa-circle-o-notch {
+    color: black;
+    font-size: 50px;
+}
 
 .fa.fa-circle-o-notch {
     -webkit-animation: spin 5s linear infinite;
