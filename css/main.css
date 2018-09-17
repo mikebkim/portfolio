@@ -358,8 +358,15 @@ thead, tfoot {
     font-size: 20px;
 }
 
-.fa.fa-paint-brush, .fa.fa-circle-o-notch {
+.fa.fa-circle-o-notch {
     color: black;
+    font-size: 50px;
+}
+
+.fa.fa-paint-brush {
+    background: -webkit-linear-gradient(red, blue, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     font-size: 50px;
 }
 
