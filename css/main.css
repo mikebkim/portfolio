@@ -45,16 +45,49 @@ a {
 
 /* Navbar */
 
+.hover-underline-menu {
+    width: 100%;
+}
+
+.hover-underline-menu .menu a {
+    color: #fefefe;
+    padding: 1.2rem 1.5rem;
+}
+
+.hover-underline-menu .menu .underline-from-center {
+    position: relative;
+}
+
+.hover-underline-menu .menu .underline-from-center::after {
+    content: "";
+    position: absolute;
+    top: calc(80% - 0.125rem);
+    border-bottom: 0.2rem solid #fefefe;
+    left: 50%;
+    right: 50%;
+    transition: all 0.5s ease;
+}
+
+.hover-underline-menu .menu .underline-from-center:hover::after {
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease;
+}
+
 .nav {
-    display: inline;
+    display: flex;
     justify-content: center;
     text-align: center;
-    background-color: black;
+    box-shadow: 2px 2px 2px .6px rgb(233, 233, 233) !important;
+    background-color: black !important;
+    padding: 2px;
 }
 
 .nav-link {
     color: white !important;
 }
+
+/* Banner */
 
 .banner {
     position: relative;
@@ -63,18 +96,6 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.card-img-top {
-    height: 150px;
-    width: 200px;
 }
 
 /* About Me */
@@ -238,7 +259,7 @@ thead, tfoot {
     align-content: center;
     width: 100%;
     height: 100%;
-    border: solid black 4px;
+    border: solid grey 4px;
 }
 
 .projects-flex {
@@ -246,6 +267,10 @@ thead, tfoot {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+}
+
+.col-lg-3.col-md-4.col-sm-6.col-xs-12 {
+    margin: 15px auto;
 }
 
 /* Resume */
@@ -350,7 +375,9 @@ thead, tfoot {
 }
 
 .fa.fa-instagram.foot:hover, .fa.fa-instagram:hover {
-    color: #EF665E;
+    background: -webkit-linear-gradient(#555FCE, #FCAD45, #E34D51, #C03287);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .fa.fa-linkedin.foot, .fa.fa-facebook.foot, .fa.fa-twitter.foot, .fa.fa-instagram.foot, .fa.fa-soundcloud.foot {
@@ -364,16 +391,63 @@ thead, tfoot {
 }
 
 .fa.fa-paint-brush {
-    background: -webkit-linear-gradient(red, blue, yellow);
+    background: -webkit-linear-gradient(violet, indigo, blue, green, yellow, orange, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 50px;
 }
 
+@-webkit-keyframes hvr-buzz {
+    50% {
+        -webkit-transform: translateX(3px) rotate(2deg);
+        transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+        -webkit-transform: translateX(-3px) rotate(-2deg);
+        transform: translateX(-3px) rotate(-2deg);
+    }
+}
+
+@keyframes hvr-buzz {
+    50% {
+        -webkit-transform: translateX(3px) rotate(2deg);
+        transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+        -webkit-transform: translateX(-3px) rotate(-2deg);
+        transform: translateX(-3px) rotate(-2deg);
+    }
+}
+
+.hvr-buzz {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+    -webkit-animation-name: hvr-buzz;
+    animation-name: hvr-buzz;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/* Circle Notch */
+
 .fa.fa-circle-o-notch {
     -webkit-animation: spin 5s linear infinite;
     -moz-animation: spin 5s linear infinite;
     animation: spin 5s linear infinite;
+}
+
+.fa.fa-circle-o-notch:hover {
+    animation: step-end;
 }
 
 @-moz-keyframes spin {
