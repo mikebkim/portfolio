@@ -365,8 +365,8 @@ thead, tfoot {
 
 .fa.fa-paint-brush {
     background: -webkit-linear-gradient(red, blue, yellow);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 50px;
 }
 
