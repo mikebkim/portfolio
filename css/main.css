@@ -375,29 +375,44 @@ thead, tfoot {
 
 /* Social Media Icons */
 
-.fa.fa-linkedin, .fa.fa-facebook, .fa.fa-twitter, .fa.fa-instagram, .fa.fa-soundcloud {
+.fa.fa-github, .fa.fa-linkedin, .fa.fa-facebook, .fa.fa-twitter, .fa.fa-instagram, .fa.fa-soundcloud {
     color: black;
-    font-size: 24px;
+    font-size: 23px;
+}
+
+.fa.fa-github.foot:hover, .fa.fa-github:hover {
+    color: rgb(99, 99, 99);
+    transition: all 0.7s ease;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
 }
 
 .fa.fa-linkedin.foot:hover, .fa.fa-linkedin:hover {
     color: #378EBF;
     transition: all 0.7s ease;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
 }
 
 .fa.fa-twitter.foot:hover, .fa.fa-twitter:hover {
     color: #1DA1F2;
     transition: all 0.7s ease;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
 }
 
 .fa.fa-soundcloud.foot:hover, .fa.fa-soundcloud:hover {
     color: #FF7200;
     transition: all 0.7s ease;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
 }
 
 .fa.fa-facebook.foot:hover, .fa.fa-facebook:hover {
     color: #4267B2;
     transition: all 0.7s ease;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
 }
 
 .fa.fa-instagram.foot:hover, .fa.fa-instagram:hover {
@@ -406,9 +421,11 @@ thead, tfoot {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.7s ease;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
 }
 
-.fa.fa-linkedin.foot, .fa.fa-facebook.foot, .fa.fa-twitter.foot, .fa.fa-instagram.foot, .fa.fa-soundcloud.foot {
+.fa.fa-github.foot, .fa.fa-linkedin.foot, .fa.fa-facebook.foot, .fa.fa-twitter.foot, .fa.fa-instagram.foot, .fa.fa-soundcloud.foot {
     color: white;
     font-size: 20px;
 }
