@@ -455,7 +455,7 @@ p {
 
 .sphere.main {
     position: absolute;
-    top: 100px;
+    top: 200px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -465,8 +465,8 @@ p {
 }
 
 .sphere.main .circle {
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     transform-style: preserve-3d;
     border-radius: 100%;
