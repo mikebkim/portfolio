@@ -4,14 +4,13 @@
 
 body, html {
     height: 100%;
-    padding: 0px 20px 0px 20px;
 }
 
 h1 {
     display: flex;
     justify-content: left;
     align-items: center;
-    margin: 70px 0px 20px 0px !important;
+    margin: 43px 0px 20px 0px !important;
     font-family: 'Hind', sans-serif !important;
     font-size: 40px !important;
 }
@@ -48,6 +47,15 @@ h5 {
     font-family: 'Hind', sans-serif !important;
     font-size: 24px !important;
     color: black !important;
+}
+
+h6 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 70px 0px 20px 0px !important;
+    font-family: 'Hind', sans-serif !important;
+    font-size: 40px !important;
 }
 
 span {
@@ -88,7 +96,7 @@ a {
 
 .hover-underline-menu .menu a {
     color: #fefefe;
-    padding: 1rem 1.5rem;
+    padding: .5rem 1.3rem;
 }
 
 .hover-underline-menu .menu .underline-from-center {
@@ -114,8 +122,7 @@ a {
 .nav {
     display: flex;
     flex-direction: row;
-    justify-content: right;
-    text-align: right;
+    align-items: center;
     background-color: black !important;
     padding: 1px;
 }
@@ -136,11 +143,25 @@ a {
     background-size: cover;
 }
 
+.banner.about {
+    position: relative;
+    background-image: url("https://i.imgur.com/bNNZnZO.jpg");
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* About Me */
 
 .about-me-link {
     color: black !important;
     font-size: 18px;
+}
+
+.about-me-content {
+    background-color: white;
+    padding: 10px 25px 15px 25px;
 }
 
 .hvr-bubble-bottom {
@@ -416,21 +437,14 @@ ul {
     animation-delay: 0s;
 }
 
-.skills-table {
-    margin: 70px 0px 0px 100px;
-}
-
-.skills-item {
-    display: flex;
-    justify-content: left;
-}
-
 /* Technologies */
 
-.languages-tools {
+
+.skills-table {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    justify-content: left;
+    flex-wrap: wrap;
 }
 
 /* Projects */
@@ -536,6 +550,7 @@ ul {
 #return-to-top:hover {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
+    z-index: 1;
 }
 
 /* Footer */
