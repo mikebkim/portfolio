@@ -76,10 +76,12 @@ span {
 a {
     color: white !important;
     text-decoration: none !important;
+    text-align: left !important;
 }
 
 p {
     font-size: 15px;
+    text-align: left !important;
 }
 
 .caption {
