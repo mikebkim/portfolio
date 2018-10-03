@@ -98,6 +98,17 @@ p {
 
 /* Navbar */
 
+.nav {
+    align-items: center;
+    background-color: black !important;
+    padding: 1px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 12px;
+}
+
 .hover-underline-menu {
     width: 100%;
 }
@@ -122,22 +133,9 @@ p {
 }
 
 .hover-underline-menu .menu .underline-from-center:hover::after {
-    left: 0;
-    right: 0;
+    left: 13px;
+    right: 13px;
     transition: all 0.5s ease;
-}
-
-.nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: black !important;
-    padding: 1px;
-}
-
-.nav-link {
-    color: white !important;
-    font-size: 12px;
 }
 
 /* Banner */
@@ -149,14 +147,13 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0 !important;
 }
 
 .banner.about {
     position: relative;
-    background-image: url("https://i.imgur.com/bNNZnZO.jpg");
+    background-image: url("https://i.imgur.com/lO1Fauc.jpg");
     height: 100%;
-    background-position: top;
+    background-position: 100% 150px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -170,7 +167,7 @@ p {
 
 .about-me-content {
     background-color: white;
-    padding: 10px 25px 15px 25px;
+    padding: 15px 45px 15px 45px;
 }
 
 .hvr-bubble-bottom {
@@ -216,33 +213,13 @@ p {
     margin: 0 auto;
 }
 
-.td-title {
-    font-size: 16px;
-}
-
-.td-skill {
-    justify-content: center;
-    align-items: center;
-}
-
-.td-skill:hover {
-    background-color: white;
-    border: solid white 5px;
-    color: black;
-}
-
 /* About Me */
 
 .skills-panel {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 10px 25px 15px 25px;
-}
-
-.skills-panel img {
-    width: 5vw;
-    height: 5vh;
+    padding: 10px 40px 15px 40px;
 }
 
 .creative-panel, .responsive-panel {
@@ -382,7 +359,7 @@ p {
 
 /* Social Media Icons */
 
-.fa.fa-github, .fa.fa-linkedin, .fa.fa-facebook, .fa.fa-twitter, .fa.fa-instagram, .fa.fa-soundcloud {
+.fa.fa-github, .fa.fa-linkedin, .fa.fa-facebook, .fa.fa-twitter, .fa.fa-instagram, .fa.fa-soundcloud, .fa.fa-spotify {
     color: black;
     font-size: 23px;
 }
@@ -415,6 +392,13 @@ p {
     transform: scale(1.4);
 }
 
+.fa.fa-spotify.foot:hover, .fa.fa-spotify:hover {
+    color: #2ED566;
+    transition: all 0.7s ease;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
 .fa.fa-facebook.foot:hover, .fa.fa-facebook:hover {
     color: #4267B2;
     transition: all 0.7s ease;
@@ -432,7 +416,7 @@ p {
     transform: scale(1.4);
 }
 
-.fa.fa-github.foot, .fa.fa-linkedin.foot, .fa.fa-facebook.foot, .fa.fa-twitter.foot, .fa.fa-instagram.foot, .fa.fa-soundcloud.foot {
+.fa.fa-github.foot, .fa.fa-linkedin.foot, .fa.fa-facebook.foot, .fa.fa-twitter.foot, .fa.fa-instagram.foot, .fa.fa-soundcloud.foot, .fa.fa-spotify.foot {
     color: white;
     font-size: 20px;
 }
@@ -446,70 +430,115 @@ p {
 }
 
 .fa.fa-paint-brush:hover {
-    -webkit-animation: color-change 2s infinite;
-    -moz-animation: color-change 2s infinite;
-    -o-animation: color-change 2s infinite;
-    -ms-animation: color-change 2s infinite;
-    animation: color-change 2s infinite;
+    -webkit-animation: color-change 4s infinite;
+    -moz-animation: color-change 4s infinite;
+    -o-animation: color-change 4s infinite;
+    -ms-animation: color-change 4s infinite;
+    animation: color-change 4s infinite;
 }
 
 @-webkit-keyframes color-change {
     0% {
-        color: black;
+        color: red;
     }
-    50% {
-        color: lightskyblue;
+    20% {
+        color: orange;
+    }
+    40% {
+        color: yellow;
+    }
+    60% {
+        color: green;
+    }
+    80% {
+        color: blue;
     }
     100% {
-        color: blue;
+        color: indigo;
     }
 }
 
 @-moz-keyframes color-change {
     0% {
-        color: black;
+        color: red;
     }
-    50% {
-        color: lightskyblue;
+    20% {
+        color: orange;
+    }
+    40% {
+        color: yellow;
+    }
+    60% {
+        color: green;
+    }
+    80% {
+        color: blue;
     }
     100% {
-        color: blue;
+        color: indigo;
     }
 }
 
 @-ms-keyframes color-change {
     0% {
-        color: black;
+        color: red;
     }
-    50% {
-        color: lightskyblue;
+    20% {
+        color: orange;
+    }
+    40% {
+        color: yellow;
+    }
+    60% {
+        color: green;
+    }
+    80% {
+        color: blue;
     }
     100% {
-        color: blue;
+        color: indigo;
     }
 }
 
 @-o-keyframes color-change {
     0% {
-        color: black;
+        color: red;
     }
-    50% {
-        color: lightskyblue;
+    20% {
+        color: orange;
+    }
+    40% {
+        color: yellow;
+    }
+    60% {
+        color: green;
+    }
+    80% {
+        color: blue;
     }
     100% {
-        color: blue;
+        color: indigo;
     }
 }
 
 @keyframes color-change {
     0% {
-        color: black;
+        color: red;
     }
-    50% {
-        color: lightskyblue;
+    20% {
+        color: orange;
+    }
+    40% {
+        color: yellow;
+    }
+    60% {
+        color: green;
+    }
+    80% {
+        color: blue;
     }
     100% {
-        color: blue;
+        color: indigo;
     }
 }
 
