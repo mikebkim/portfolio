@@ -149,6 +149,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0 !important;
 }
 
 .banner.about {
@@ -436,9 +437,123 @@ p {
     font-size: 20px;
 }
 
+/* Paint Brush */
+
+.fa.fa-paint-brush {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.fa.fa-paint-brush:hover {
+    -webkit-animation: color-change 2s infinite;
+    -moz-animation: color-change 2s infinite;
+    -o-animation: color-change 2s infinite;
+    -ms-animation: color-change 2s infinite;
+    animation: color-change 2s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% {
+        color: black;
+    }
+    50% {
+        color: lightskyblue;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+@-moz-keyframes color-change {
+    0% {
+        color: black;
+    }
+    50% {
+        color: lightskyblue;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+@-ms-keyframes color-change {
+    0% {
+        color: black;
+    }
+    50% {
+        color: lightskyblue;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+@-o-keyframes color-change {
+    0% {
+        color: black;
+    }
+    50% {
+        color: lightskyblue;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+@keyframes color-change {
+    0% {
+        color: black;
+    }
+    50% {
+        color: lightskyblue;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+/* Circle Notch */
+
+.fa.fa-circle-o-notch {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 50px;
+}
+
+.fa.fa-circle-o-notch {
+    -webkit-animation: spin 5s linear infinite;
+    -moz-animation: spin 5s linear infinite;
+    animation: spin 5s linear infinite;
+}
+
+.fa.fa-circle-o-notch:hover {
+    animation: step-end;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
 /* Ball */
 
-.wrapper {
+/* .wrapper {
     position: absolute;
     top: 0;
     left: 0;
@@ -455,7 +570,7 @@ p {
 
 .sphere.main {
     position: absolute;
-    top: 200px;
+    top: 500px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -513,4 +628,4 @@ p {
     100% {
         transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
     }
-}
+} */
