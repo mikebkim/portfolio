@@ -10,6 +10,7 @@ h1 {
     display: flex;
     justify-content: left;
     align-items: center;
+    justify-content: center;
     margin: 65px 0px 20px 0px !important;
     font-family: 'Hind', sans-serif !important;
     font-size: 50px !important;
@@ -84,6 +85,10 @@ p {
     text-align: left !important;
 }
 
+.ptech {
+    text-align: center !important;
+}
+
 .caption {
     position: absolute;
     top: 30%;
@@ -98,7 +103,7 @@ p {
 
 /* Navbar */
 
-.nav {
+.navbar {
     align-items: center;
     background-color: black !important;
     padding: 1px;
@@ -107,6 +112,11 @@ p {
 .nav-link {
     color: white !important;
     font-size: 12px;
+}
+
+.fa.fa-th-list {
+    color: white !important;
+    margin-top: 10px;
 }
 
 .hover-underline-menu {
@@ -133,8 +143,8 @@ p {
 }
 
 .hover-underline-menu .menu .underline-from-center:hover::after {
-    left: 13px;
-    right: 13px;
+    left: 5px;
+    right: 5px;
     transition: all 0.5s ease;
 }
 
@@ -147,6 +157,12 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.about-me-content.tech {
+    background-color: #F5F5F5;
+    height: 1000px;
+    max-height: 1000px;
 }
 
 .banner.about {
@@ -167,6 +183,7 @@ p {
 
 .about-me-content {
     background-color: white;
+    position: relative;
     padding: 15px 45px 15px 45px;
 }
 
@@ -200,10 +217,6 @@ p {
     transform: translateY(6px);
 }
 
-.aboutme-p {
-    max-width: 80%;
-}
-
 /* Skills */
 
 .skills {
@@ -231,7 +244,6 @@ p {
 .skills-table {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -239,8 +251,13 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px 40px;
-    font-size: 16px;
+    justify-content: center;
+    margin: 10px 20px;
+    font-size: 12px;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    box-shadow: 1px 1px 5px grey;
 }
 
 /* Projects */
@@ -578,6 +595,32 @@ p {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
+}
+
+/* Contact */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
 }
 
 /* Ball */

@@ -28,29 +28,39 @@
 
     <!-- Navbar -->
     <nav class="hover-underline-menu" data-menu-underline-from-center>
-        <ul class="nav mr-auto fixed-top menu">
-            <li class="nav-item">
-                <a class="nav-link" href="#home">
+        <nav class="navbar fixed-top navbar-expand-lg menu">
+            <div class="d-flex flex-grow-1">
+                <a class="navbar-brand-two mx-auto" href="#home">
                     <img src="https://i.imgur.com/KxItHjL.png" width="30" height="30" alt="mikepanda">
                 </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#aboutme">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#tech">Technologies</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-            </li>
-        </ul>
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="fa fa-th-list"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutme">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tech">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </nav>
+
 
     <!-- Back to Top -->
     <a href="javascript:" id="return-to-top"><span class="fa fa-arrow-circle-up"></span></a>
@@ -173,11 +183,13 @@
     <div id="tech"></div>
     <div class="banner">
         <div class="container-fluid">
-            <div class="about-me-content">
+            <div class="about-me-content tech">
                 <div class="languages-tools">
                     <div>
                         <h1>Technologies</h1>
                     </div>
+                    <p class="ptech">I specialize in Front-End Development, with knowledge in system admin and Back-End
+                        Development.</p>
                     <div class="skills-table">
                         <p class="skills-item">HTML
                             <img src="images/html.png" height="23" width="23" alt="html">
@@ -212,7 +224,7 @@
                         <p class="skills-item">Node.js
                             <img src="images/nodejs.png" height="20" width="35" alt="nodejs">
                         </p>
-                        <p class="skills-item">Git / GitHub
+                        <p class="skills-item">Git/GitHub
                             <img src="images/github.png" height="25" width="25" alt="github">
                         </p>
                         <p class="skills-item">JIRA
@@ -291,6 +303,19 @@
         </div>
     </div>
 
+    <!-- Contact -->
+    <div class="container">
+        <form method="post" name="contact_form" action="mailto:mikebkim@gmail.com">
+            Your Name:
+            <input type="text" name="name">
+            Email Address:
+            <input type="text" name="email">
+            Message:
+            <textarea name="message"></textarea>
+            <a href="mailto:mikebkim@gmail.com" target="_top">Send Mail</a>
+        </form>
+    </div>
+
     <!-- Footer -->
     <div id="contact"></div>
     <footer class="page-footer font-small pt-4c">
@@ -301,7 +326,6 @@
                     <h4 class="text-uppercase mb-4 font-weight-bold">Contact</h4>
                     <p><i class="fa fa-home mr-3"></i> Los Angeles, CA</p>
                     <p><i class="fa fa-envelope mr-3"></i><a href="mailto:mikebkim@gmail.com" target="_blank">mikebkim@gmail.com</a></p>
-                    <p><i class="fa fa-phone mr-3"></i> 310-729-7796</p>
                 </div>
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h4 class="text-uppercase mb-4 font-weight-bold">Resume</h4>
