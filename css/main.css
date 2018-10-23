@@ -204,10 +204,9 @@ p {
 .banner.about {
     position: relative;
     background-image: url("https://i.imgur.com/lO1Fauc.jpg");
-    background-position: 100% 120px;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 100%;
+    height: 80%;
 }
 
 /* About Me */
@@ -326,6 +325,10 @@ p {
 }
 
 .img-responsive {
+    margin: -30px auto;
+}
+
+.img-responsive2 {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -334,7 +337,7 @@ p {
     border: solid grey 4px;
 }
 
-.img-responsive:hover {
+.img-responsive2:hover {
     transition: 0.5s ease;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);

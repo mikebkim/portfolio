@@ -31,4 +31,10 @@ $('#return-to-top').click(function () {      // When arrow is clicked
 
 $("[data-menu-underline-from-center] a").addClass("underline-from-center");
 
-// Contact
+// Close Nav
+
+$(document).on('click', '.navbar-collapse', function (e) {
+    if ($(e.target).is('a')) {
+        $(this).collapse('hide');
+    }
+});
