@@ -8,6 +8,7 @@ body, html {
 
 .jumbotron {
     background-color: #33383F !important;
+    margin: 0px 0 -53px 0 !important;
 }
 
 .intro-name {
@@ -21,13 +22,12 @@ body, html {
 }
 
 .my-4 {
-    width: 500px;
+    width: 250px;
     color: #46494F !important;
     border-top: 2px solid #46494F;
 }
 
 .my-1 {
-    width: 1000px;
     color: #46494F !important;
     border-top: 2px solid #46494F;
 }
@@ -37,7 +37,7 @@ body, html {
 }
 
 .text-center {
-    margin-top: 50px !important;
+    margin-top: 30px !important;
 }
 
 h1 {
@@ -204,16 +204,18 @@ p {
 .banner.about {
     position: relative;
     background-image: url("https://i.imgur.com/lO1Fauc.jpg");
-    height: 100%;
-    background-position: 100% 150px;
+    background-position: 100% 120px;
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 100%;
 }
 
 /* About Me */
 
 .aboutme-p {
     text-align: center;
+    margin: 80px auto;
+    max-width: 800px;
 }
 
 .about-me-link {
@@ -223,7 +225,7 @@ p {
 
 .about-me-content {
     background-color: white;
-    padding: 15px 45px 15px 45px;
+    padding: 15px 1px;
 }
 
 .hvr-bubble-bottom {
@@ -269,7 +271,7 @@ p {
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px 40px 15px 40px;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 
 .creative-panel, .responsive-panel {
@@ -283,7 +285,6 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 300px;
 }
 
 .overflow {
@@ -303,8 +304,8 @@ p {
     justify-content: center;
     margin: 10px 20px;
     font-size: 12px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background-color: white;
 }
 
@@ -424,6 +425,11 @@ p {
     margin-top: 50px;
     background-color: #31363E;
     color: white;
+    padding-top: 1px;
+}
+
+.mt-3 {
+    margin-top: -7px !important;
 }
 
 .pfoot {
@@ -500,14 +506,11 @@ p {
     display: flex;
     justify-content: center;
     font-size: 50px;
-}
-
-.fa.fa-paint-brush:hover {
-    -webkit-animation: color-change 4s infinite;
-    -moz-animation: color-change 4s infinite;
-    -o-animation: color-change 4s infinite;
-    -ms-animation: color-change 4s infinite;
-    animation: color-change 4s infinite;
+    -webkit-animation: color-change 5s infinite;
+    -moz-animation: color-change 5s infinite;
+    -o-animation: color-change 5s infinite;
+    -ms-animation: color-change 5s infinite;
+    animation: color-change 5s infinite;
 }
 
 @-webkit-keyframes color-change {
