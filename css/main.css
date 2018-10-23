@@ -123,6 +123,7 @@ p {
 
 .ptech {
     text-align: center !important;
+    padding: 0 25px;
 }
 
 .caption {
@@ -215,6 +216,7 @@ p {
     text-align: center;
     margin: 80px auto;
     max-width: 800px;
+    padding: 0 25px;
 }
 
 .about-me-link {
@@ -291,8 +293,8 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 800px;
-    height: 400px;
+    width: 710px;
+    height: 363px;
     overflow: scroll;
 }
 
@@ -443,7 +445,9 @@ p {
 
 .fa.fa-github, .fa.fa-linkedin, .fa.fa-facebook, .fa.fa-twitter, .fa.fa-instagram, .fa.fa-soundcloud, .fa.fa-spotify {
     color: white;
-    font-size: 23px;
+    font-size: 22px;
+    margin: 3px -5px;
+    padding-top: 22px;
 }
 
 .fa.fa-github.foot:hover, .fa.fa-github:hover {
