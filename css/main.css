@@ -691,6 +691,7 @@ input {
 
 textarea {
     margin: 20px !important;
+    height: 15rem;
 }
 
 .btn-success {
