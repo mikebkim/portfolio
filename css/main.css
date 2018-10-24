@@ -207,7 +207,8 @@ p {
     background-image: url("https://i.imgur.com/lO1Fauc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80%;
+    background-position-y: -50px;
+    height: 71%;
 }
 
 /* About Me */
@@ -216,7 +217,7 @@ p {
     text-align: center;
     margin: 80px auto;
     max-width: 800px;
-    padding: 0 25px;
+    padding: 0 15px;
 }
 
 .about-me-link {
@@ -271,11 +272,10 @@ p {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10px 40px 15px 40px;
     margin-bottom: 100px;
 }
 
-.creative-panel, .responsive-panel {
+.creative-panel, .responsive-panel, .dynamic-panel {
     margin: 20px 50px;
 }
 
@@ -310,7 +310,17 @@ p {
     background-color: white;
 }
 
+.skills-item:hover {
+    transition: 0.5s ease;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 /* Projects */
+
+.project-description {
+    text-align: left !important;
+}
 
 .col-lg-3 {
     margin: 0 60px;
@@ -350,6 +360,7 @@ p {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 /* Resume */
@@ -665,105 +676,29 @@ p {
 
 /* Contact */
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+input {
+    width: 1000px;
+    margin: 20px !important;
+    height: 3em;
 }
 
-input[type=submit]:hover {
-    background-color: #45a049;
+textarea {
+    margin: 20px !important;
 }
 
-/* Ball */
-
-/* .wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    perspective: 400;
+.btn-success {
+    width: 100px;
+    border-radius: .25rem;
 }
 
-.sphere {
-    width: 140px;
-    height: 140px;
-    transform-style: preserve-3d;
+.about-me-content.contact {
+    background-color: #F5F5F5;
+    height: 770px;
 }
-
-.sphere.main {
-    position: absolute;
-    top: 500px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    transform: rotateX(60deg) rotateZ(-30deg);
-    animation: rotate 20s infinite linear;
-}
-
-.sphere.main .circle {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    transform-style: preserve-3d;
-    border-radius: 100%;
-    box-sizing: border-box;
-    box-shadow: 0 0 40px white, inset 0 0 40px black;
-}
-
-.sphere.main .circle::before {
-    transform: translateZ(-90px);
-}
-
-.sphere.main .circle::after {
-    transform: translateZ(90px);
-}
-
-.sphere.main .circle:nth-child(1) {
-    transform: rotateZ(72deg) rotateX(63.435deg);
-}
-
-.sphere.main .circle:nth-child(2) {
-    transform: rotateZ(144deg) rotateX(63.435deg);
-}
-
-.sphere.main .circle:nth-child(3) {
-    transform: rotateZ(216deg) rotateX(63.435deg);
-}
-
-.sphere.main .circle:nth-child(4) {
-    transform: rotateZ(288deg) rotateX(63.435deg);
-}
-
-.plane.main .circle:nth-child(5) {
-    transform: rotateZ(360deg) rotateX(63.435deg);
-}
-
-.plane.main .circle:nth-child(6) {
-    transform: rotateZ(420deg) rotateX(63.435deg);
-}
-
-@keyframes rotate {
-    0% {
-        transform: rotateX(0) rotateY(0) rotateZ(0);
-    }
-    100% {
-        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
-    }
-} */
