@@ -834,6 +834,12 @@ textarea {
     position: absolute;
 }
 
+.slidingVertical span:nth-child(1) {
+    animation-delay: 0s;
+    -ms-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
 .slidingVertical span:nth-child(2) {
     animation-delay: 2.5s;
     -ms-animation-delay: 2.5s;
