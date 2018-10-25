@@ -538,16 +538,16 @@ p {
     -o-animation: color-change 5s infinite;
     -ms-animation: color-change 5s infinite;
     animation: color-change 5s infinite;
-    height: 80px;
-    width: 80px;
-    background-color: #2FC2C7;
+    height: 100px;
+    width: 100px;
+    background-color: white;
     border-radius: 50%;
-    border-bottom: 5px solid black;
+    border: 3px solid black;
 }
 
 .fa-paint-brush:before {
     content: "\f1fc";
-    margin: 13px auto;
+    margin: 22px auto;
     animation: swing 4s linear infinite;
 }
 
@@ -673,34 +673,31 @@ p {
     }
 }
 
-/* Circle Notch */
+/* Spinner */
 
-.fa.fa-circle-o-notch {
+.fa.fa-spinner {
     display: flex;
     justify-content: center;
-    color: #E75371;
-    font-size: 40px;
+    color: black;
+    font-size: 50px;
     margin: 0 70px;
-    -webkit-animation: spin 5s linear infinite;
-    -moz-animation: spin 5s linear infinite;
-    animation: spin 5s linear infinite;
+    -webkit-animation: spin 4s reverse infinite;
+    -moz-animation: spin 4s reverse infinite;
+    animation: spin 4s reverse infinite;
 }
 
 .circle-no {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    height: 80px;
-    width: 80px;
-    background-color: #2FC2C7;
+    height: 100px;
+    width: 100px;
+    background-color: white;
     border-radius: 50%;
-    border-bottom: 5px solid black;
-    -webkit-animation: spin 5s linear infinite;
-    -moz-animation: spin 5s linear infinite;
-    animation: spin 5s linear infinite;
+    border: 3px solid black;
 }
 
-.fa.fa-circle-o-notch:hover {
+.fa.fa-spinner:hover {
     animation-play-state: paused;
     cursor: pointer;
 }
@@ -729,25 +726,6 @@ p {
     }
 }
 
-@-moz-keyframes spin {
-    100% {
-        -moz-transform: rotate(360deg);
-    }
-}
-
-@-webkit-keyframes spin {
-    100% {
-        -webkit-transform: rotate(360deg);
-    }
-}
-
-@keyframes spin {
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
 /* Mobile Icon */
 
 .fa.fa-tv {
@@ -755,19 +733,19 @@ p {
     justify-content: center;
     margin: 0 auto;
     color: black;
-    font-size: 45px;
+    font-size: 50px;
     margin: 0 70px;
-    height: 80px;
-    width: 80px;
-    background-color: #2FC2C7;
+    height: 100px;
+    width: 100px;
+    background-color: white;
     border-radius: 50%;
-    border-bottom: 5px solid black;
+    border: 3px solid black;
     transition: all 0.5s ease-out;
 }
 
 .fa-tv:before {
     content: "\f26c";
-    margin: 17px 0px 17px 5px;
+    margin: 24px 0px 24px 5px;
 }
 
 .fa.fa-tv:hover {
