@@ -537,7 +537,7 @@ p {
     -moz-animation: color-change 5s infinite;
     -o-animation: color-change 5s infinite;
     -ms-animation: color-change 5s infinite;
-    animation: color-change 5s infinite;
+    animation: color-change 5s infinite, swing 4s linear infinite;
     height: 100px;
     width: 100px;
     background-color: white;
@@ -548,7 +548,6 @@ p {
 .fa-paint-brush:before {
     content: "\f1fc";
     margin: 22px auto;
-    animation: swing 4s linear infinite;
 }
 
 @keyframes swing {
