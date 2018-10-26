@@ -533,10 +533,10 @@ p {
     justify-content: center;
     font-size: 50px;
     margin: 0 70px;
-    -webkit-animation: color-change 5s infinite;
-    -moz-animation: color-change 5s infinite;
-    -o-animation: color-change 5s infinite;
-    -ms-animation: color-change 5s infinite;
+    -webkit-animation: color-change 5s infinite,swing 4s linear infinite;
+    -moz-animation: color-change 5s infinite, swing 4s linear infinite;
+    -o-animation: color-change 5s infinite, swing 4s linear infinite;
+    -ms-animation: color-change 5s infinite, swing 4s linear infinite;
     animation: color-change 5s infinite, swing 4s linear infinite;
     height: 100px;
     width: 100px;
