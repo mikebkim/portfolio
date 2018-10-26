@@ -384,9 +384,9 @@ p {
 }
 
 .btn.btn-default:hover {
-    color: #31363E;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-color: rgba(255, 255, 255, 0.1);
+    color: #31363E !important;
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 /* Back to Top */
