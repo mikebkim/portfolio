@@ -198,8 +198,8 @@ p {
 
 .about-me-content.tech {
     background-color: #F5F5F5;
-    height: 720px;
-    max-height: 750px;
+    height: 770px;
+    max-height: 770px;
 }
 
 .banner.about {
@@ -445,7 +445,6 @@ p {
 /* Footer */
 
 .page-footer {
-    margin-top: 50px;
     background-color: #31363E;
     color: white;
     padding-top: 1px;
@@ -533,7 +532,7 @@ p {
     justify-content: center;
     font-size: 50px;
     margin: 0 70px;
-    -webkit-animation: color-change 5s infinite,swing 4s linear infinite;
+    -webkit-animation: color-change 5s infinite, swing 4s linear infinite;
     -moz-animation: color-change 5s infinite, swing 4s linear infinite;
     -o-animation: color-change 5s infinite, swing 4s linear infinite;
     -ms-animation: color-change 5s infinite, swing 4s linear infinite;
