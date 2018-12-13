@@ -298,6 +298,16 @@ p {
     overflow: scroll;
 }
 
+.overflow-music {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1200px;
+    height: 500px;
+    overflow: scroll;
+}
+
 .skills-item {
     display: flex;
     flex-direction: column;
@@ -368,6 +378,22 @@ p {
     align-content: center;
     flex-wrap: wrap;
     margin-bottom: 100px;
+}
+
+.soundcloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+iframe {
+    margin: 20px 20px;
+}
+
+.about-me-content.music {
+    background-color: #F5F5F5;
+    height: 770px;
+    max-height: 770px;
 }
 
 /* Resume */
@@ -859,7 +885,6 @@ input[type="submit"]::-moz-focus-inner {
 }
 
 .about-me-content.contact {
-    background-color: #F5F5F5;
     height: 770px;
 }
 
