@@ -281,9 +281,24 @@ p {
 
 /* Technologies */
 
+.all-tables {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
 .skills-table {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.music-table {
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -293,7 +308,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 710px;
+    width: 610px;
     height: 363px;
     overflow: scroll;
 }
@@ -318,6 +333,20 @@ p {
     width: 100px;
     height: 100px;
     background-color: white;
+    border: 2px solid #E75371;
+    transition: all 0.3s ease-out;
+}
+
+.music-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+    font-size: 12px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
     border: 2px solid #21C2C8;
     transition: all 0.3s ease-out;
 }
@@ -326,7 +355,15 @@ p {
     transition: all 0.3s ease-in;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    box-shadow: 0px 0px 15px #2FC2C7;
+    box-shadow: 0px 0px 15px #E75371;
+    border: 2px solid rgba(231, 83, 113, 0.5);
+}
+
+.music-item:hover {
+    transition: all 0.3s ease-in;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px #21C2C8;
     border: 2px solid rgba(33, 194, 200, 0.5);
 }
 
@@ -890,7 +927,7 @@ input[type="submit"]::-moz-focus-inner {
 }
 
 .about-me-content.contact {
-    height: 770px;
+    height: 730px;
 }
 
 /*Horizontal Sliding*/
