@@ -513,14 +513,14 @@ iframe {
 
 /* Footer */
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .page-footer {
     background-color: #31363E;
     color: white;
     padding-top: 1px;
-}
-
-.mt-3 {
-    margin-top: -7px !important;
 }
 
 .pfoot {
