@@ -307,9 +307,9 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
-    width: 610px;
-    height: 363px;
+    margin: 0 20px 50px 20px;
+    width: 420px;
+    height: 360px;
     overflow: scroll;
 }
 
