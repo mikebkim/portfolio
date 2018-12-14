@@ -198,8 +198,6 @@ p {
 
 .about-me-content.tech {
     background-color: #F5F5F5;
-    height: 770px;
-    max-height: 770px;
 }
 
 .banner.about {
@@ -284,14 +282,15 @@ p {
 .all-tables {
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
+    margin-bottom: 50px;
     overflow: scroll;
 }
 
 .skills-table {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
 }
@@ -299,8 +298,8 @@ p {
 .music-table {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 
 .overflow {
@@ -308,18 +307,9 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 50px;
     width: 610px;
     height: 363px;
-    overflow: scroll;
-}
-
-.overflow-music {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 1200px;
-    height: 500px;
     overflow: scroll;
 }
 
@@ -414,6 +404,7 @@ p {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    overflow: scroll;
     margin-bottom: 100px;
 }
 
@@ -436,6 +427,16 @@ iframe {
     background-color: #F5F5F5;
     height: 770px;
     max-height: 770px;
+}
+
+.overflow-music {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+    height: 450px;
+    overflow: scroll;
 }
 
 /* Resume */
