@@ -438,7 +438,6 @@ iframe {
     justify-content: center;
     width: 1000px;
     height: 500px;
-    border: 5px solid black;
     overflow: scroll;
 }
 
