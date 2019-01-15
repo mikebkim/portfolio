@@ -58,7 +58,6 @@ h2 {
     display: flex;
     justify-content: left;
     align-items: center;
-    margin: 70px 0px 20px 0px !important;
     font-family: 'Hind', sans-serif !important;
     font-size: 24px !important;
 }
@@ -68,6 +67,7 @@ h3 {
     align-items: center;
     text-align: center;
     font-size: 26px !important;
+    margin-top: 28px !important;
 }
 
 h4 {
@@ -82,12 +82,13 @@ h4 {
 
 h5 {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     margin: 5px auto !important;
     font-family: 'Hind', sans-serif !important;
     font-size: 24px !important;
-    color: black !important;
+    color: white !important;
+    background-color: #2FC2C7;
 }
 
 h6 {
@@ -293,6 +294,9 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    border: solid #E55573 5px;
+    margin: 20px;
+    border-radius: 5%;
 }
 
 .music-table {
@@ -300,6 +304,9 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    border: solid #2FC2C7 5px;
+    margin: 20px;
+    border-radius: 5%;
 }
 
 .overflow {
@@ -439,6 +446,7 @@ iframe {
     width: 1000px;
     height: 500px;
     overflow: scroll;
+    border: solid #FC561F 5px;
 }
 
 /* Resume */
@@ -881,13 +889,13 @@ input {
     width: 1000px;
     margin: 20px !important;
     height: 3em;
-    border: 1px solid #21C2C8 !important;
+    border: 2px solid #21C2C8 !important;
 }
 
 textarea {
     margin: 20px !important;
     height: 15rem;
-    border: 1px solid #21C2C8 !important;
+    border: 2px solid #21C2C8 !important;
 }
 
 textarea:focus {
