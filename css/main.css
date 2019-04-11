@@ -421,7 +421,6 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    z-index: -1;
 }
 
 iframe {
@@ -448,6 +447,7 @@ iframe {
     height: 500px;
     overflow: scroll;
     border: solid #FC561F 5px;
+    border-radius: 3%;
 }
 
 /* Resume */
