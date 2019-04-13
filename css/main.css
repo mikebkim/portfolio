@@ -443,7 +443,7 @@ iframe {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 45rem;
+    width: 42rem;
     height: 500px;
     overflow: scroll;
     border: solid #FC561F 5px;
