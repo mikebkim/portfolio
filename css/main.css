@@ -444,9 +444,9 @@ iframe {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 42rem;
-    height: 500px;
-    overflow: scroll;
+    width: 70rem;
+    height: 340px;
+    overflow-x: scroll;
     border: solid #FC561F 5px;
     border-radius: 3%;
 }
