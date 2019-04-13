@@ -195,6 +195,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: -24rem;
 }
 
 .about-me-content.tech {
