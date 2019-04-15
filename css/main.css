@@ -191,7 +191,7 @@ p {
 .banner {
     position: relative;
     background-image: url("");
-    height: 60%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
