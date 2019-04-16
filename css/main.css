@@ -518,17 +518,22 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #31363E;
-    background-color: white;
-    border-color: white;
-    border: 2px solid white;
+    color: white;
+    background-color: #E75371;
+    border-color: #E75371;
+    border: 2px solid #E75371;
     font-weight: 900;
 }
 
 .btn.btn-default:hover {
-    color: #31363E !important;
-    background-color: rgba(255, 255, 255, 0.7) !important;
-    border-color: rgba(255, 255, 255, 0.1) !important;
+    transition: .15s ease-in-out !important;
+    background-color: .15s ease-in-out !important;
+    border-color: .15s ease-in-out !important;
+    box-shadow: .15s ease-in-out !important;
+    color: white !important;
+    background-color: rgba(231, 83, 113, 0.705) !important;
+    border-color: rgba(231, 83, 113, 0.01) !important;
+    font-weight: bold !important;
 }
 
 /* Back to Top */
