@@ -10,6 +10,7 @@ body, html {
 .jumbotron {
     background-color: #33383F !important;
     margin: 0px 0 -53px 0 !important;
+    padding: 6rem 2rem !important;
 }
 
 .intro-name {
@@ -123,7 +124,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center !important;
 }
 
@@ -190,40 +191,53 @@ p {
 
 /* Banner */
 
-.banner {
+/* .banner {
     position: relative;
     background-image: url("");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .about-me-content.tech {
     background-color: #F5F5F5;
 }
 
-.banner.about {
+.personal-img {
+    width: 20%;
+    height: 20%;
+    border: solid #2FC2C7 5px;
+}
+
+/* .banner.about {
     position: relative;
     background-image: url("https://i.imgur.com/lO1Fauc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -50px;
     height: 71%;
-}
+} */
 
 /* About Me */
 
-.aboutme-p {
-    text-align: center;
-    margin: 80px auto;
-    max-width: 800px;
-    padding: 0 15px;
+.about-me {
+    display: flex;
+    margin: 10rem 0;
+    justify-content: center;
 }
 
-.about-me-link {
-    color: white !important;
-    font-size: 18px;
+.aboutflex {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme-p {
+    text-align: left !important;
+    margin: 80px auto;
+    max-width: 800px;
+    padding: 0 6rem;
+    font-size: 16px;
 }
 
 .about-me-content {
@@ -231,7 +245,31 @@ p {
     padding: 15px 1px;
 }
 
-.hvr-bubble-bottom {
+.about-me-link {
+    color: black !important;
+    font-size: 18px;
+}
+
+.btn.btn-secondary {
+    color: #E75371 !important;
+    background-color: transparent;
+    border-color: #E75371;
+    border: 2px solid #E75371;
+    font-weight: bolder !important;
+}
+
+.btn.btn-secondary:hover {
+    transition: .15s ease-in-out !important;
+    background-color: .15s ease-in-out !important;
+    border-color: .15s ease-in-out !important;
+    box-shadow: .15s ease-in-out !important;
+    color: white !important;
+    background-color: #2FC2C7 !important;
+    border-color: #2FC2C7 !important;
+    font-weight: bolder !important;
+}
+
+/* .hvr-bubble-bottom {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -264,7 +302,7 @@ p {
 .hvr-bubble-bottom:hover:before, .hvr-bubble-bottom:focus:before, .hvr-bubble-bottom:active:before {
     -webkit-transform: translateY(6px);
     transform: translateY(6px);
-}
+} */
 
 /* About Me */
 
@@ -388,9 +426,9 @@ p {
     color: black !important;
 }
 
-.img-responsive {
+/* .img-responsive {
     margin: -30px auto;
-}
+} */
 
 .img-responsive2 {
     display: flex;
