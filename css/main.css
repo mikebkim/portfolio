@@ -367,12 +367,6 @@ p {
     border: 2px solid rgba(33, 194, 200, 0.5);
 }
 
-.music-box {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 /* Projects */
 
 .project-description {
@@ -423,6 +417,8 @@ p {
     overflow: scroll;
     margin-bottom: 100px;
 }
+
+/* Music */
 
 .soundcloud {
     display: flex;
@@ -479,6 +475,15 @@ iframe {
     width: 42rem;
     height: 500px;
     overflow-y: scroll;
+}
+
+.music-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    overflow: scroll;
 }
 
 /* Resume */
