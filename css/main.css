@@ -370,6 +370,7 @@ p {
 .music-box {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* Projects */
@@ -431,7 +432,7 @@ p {
     align-items: center;
     border: solid #FC561F 5px;
     border-radius: 3%;
-    margin: 0 2rem;
+    margin: 1rem 2rem;
 }
 
 .spotify {
@@ -442,7 +443,7 @@ p {
     align-items: center;
     border: solid #2ED566 5px;
     border-radius: 3%;
-    margin: 0 2rem;
+    margin: 1rem 2rem;
 }
 
 iframe {
@@ -457,7 +458,7 @@ iframe {
 
 .about-me-content.music {
     background-color: #F5F5F5;
-    height: 65%;
+    height: 75%;
 }
 
 .overflow-music {
