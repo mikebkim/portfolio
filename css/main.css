@@ -4,6 +4,7 @@
 
 body, html {
     height: 100%;
+    width: 100%;
 }
 
 .jumbotron {
@@ -426,8 +427,6 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: solid #FC561F 5px;
-    border-radius: 3%;
     margin: 1rem 2rem;
 }
 
@@ -437,14 +436,12 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: solid #2ED566 5px;
-    border-radius: 3%;
     margin: 1rem 2rem;
 }
 
 iframe {
     margin: 5px 10px;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .sc-background-orange {
@@ -461,8 +458,7 @@ iframe {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 42rem;
-    height: 500px;
+    height: 25rem;
     overflow: scroll;
 }
 
@@ -471,8 +467,7 @@ iframe {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 42rem;
-    height: 500px;
+    height: 25rem;
     overflow: scroll;
 }
 
