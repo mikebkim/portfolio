@@ -205,8 +205,8 @@ p {
 }
 
 .personal-img {
-    width: 20%;
-    height: 20%;
+    max-width: 350px;
+    max-height: 350px;
     border: solid #2FC2C7 5px;
 }
 
@@ -223,6 +223,7 @@ p {
 
 .about-me {
     display: flex;
+    flex-wrap: wrap;
     margin: 10rem 0;
     justify-content: center;
 }
