@@ -10,7 +10,7 @@ body, html {
 .jumbotron {
     background-color: #33383F !important;
     margin: 0px 0 -53px 0 !important;
-    padding: 6rem 2rem !important;
+    padding-bottom: 6rem !important;
 }
 
 .intro-name {
