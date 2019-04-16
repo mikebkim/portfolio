@@ -29,12 +29,12 @@ body, html {
 .my-4 {
     width: 350px;
     color: #21C2C8 !important;
-    border-top: 1px solid #21C2C8;
+    border-top: 2px solid #21C2C8;
 }
 
 .my-1 {
     color: #21C2C8 !important;
-    border-top: 1px solid #21C2C8;
+    border-top: 2px solid #21C2C8;
 }
 
 .display-4 {
