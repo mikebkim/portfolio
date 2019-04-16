@@ -429,6 +429,9 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border: solid #FC561F 5px;
+    border-radius: 3%;
+    margin: 0 2rem;
 }
 
 .spotify {
@@ -437,11 +440,14 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    border: solid #2ED566 5px;
+    border-radius: 3%;
+    margin: 0 2rem;
 }
 
 iframe {
-    margin: 15px 15px;
-    padding: 25px;
+    margin: 5px 10px;
+    padding: 20px;
 }
 
 .sc-background-orange {
@@ -462,9 +468,6 @@ iframe {
     width: 42rem;
     height: 500px;
     overflow: scroll;
-    border: solid #FC561F 5px;
-    border-radius: 3%;
-    margin: 0 2rem;
 }
 
 .overflow-music.spot {
@@ -475,9 +478,6 @@ iframe {
     width: 42rem;
     height: 500px;
     overflow: scroll;
-    border: solid #2ED566 5px;
-    border-radius: 3%;
-    margin: 0 2rem;
 }
 
 /* Resume */
