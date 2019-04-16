@@ -207,11 +207,9 @@ p {
 .personal-img {
     max-width: 350px;
     max-height: 350px;
-    border-bottom: 5px solid #2FC2C7 !important;
-    border-right: 5px solid #2FC2C7 !important;
-    border-top: 5px solid #E75371 !important;
-    border-left: 5px solid #E75371 !important;
+    border: 5px solid #2FC2C7 !important;
     box-shadow: black 0 0 10px;
+    border-radius: 3%;
 }
 
 /* .banner.about {
