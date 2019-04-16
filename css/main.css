@@ -52,7 +52,7 @@ h1 {
     justify-content: center;
     margin: 65px 0px 20px 0px !important;
     font-family: 'Hind', sans-serif !important;
-    font-size: 50px !important;
+    font-size: 45px !important;
     text-transform: uppercase;
 }
 
@@ -205,8 +205,8 @@ p {
 }
 
 .personal-img {
-    max-width: 400px;
-    max-height: 350px;
+    max-width: 350px;
+    max-height: 330px;
     border: 5px solid #2FC2C7 !important;
     box-shadow: black 0 0 10px;
     border-radius: 3%;
@@ -359,7 +359,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 10px 20px 10px;
-    width: 365px;
+    width: 340px;
     height: 330px;
     overflow: scroll;
 }
@@ -371,8 +371,8 @@ p {
     justify-content: center;
     margin: 5px 10px;
     font-size: 12px;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     background-color: white;
     border: 2px solid #E75371;
     border-radius: 8%;
@@ -386,8 +386,8 @@ p {
     justify-content: center;
     margin: 5px 10px;
     font-size: 12px;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     background-color: white;
     border: 2px solid #21C2C8;
     border-radius: 8%;
