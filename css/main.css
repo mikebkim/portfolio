@@ -421,13 +421,22 @@ p {
 
 /* Music */
 
+.all-tables-music {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    overflow: scroll;
+}
+
 .soundcloud {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 1rem 2rem;
+    margin: 1rem 20rem;
 }
 
 .spotify {
@@ -436,7 +445,31 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 1rem 2rem;
+    margin: 1rem 20rem;
+}
+
+.fa.fa-soundcloud.logo {
+    color: #FF7200;
+    font-size: 200px;
+}
+
+.fa.fa-soundcloud.logo:hover {
+    color: #FF7200;
+    transition: all 0.5s ease-in;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.fa.fa-spotify.logo {
+    color: #2ED566;
+    font-size: 200px;
+}
+
+.fa.fa-spotify.logo:hover {
+    color: #2ED566;
+    transition: all 0.5s ease-in;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .spotify-frame {
