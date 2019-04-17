@@ -51,7 +51,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 65px 0px 20px 0px !important;
-    font-family: 'Hind', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     font-size: 45px !important;
     text-transform: uppercase;
 }
@@ -60,12 +60,12 @@ h2 {
     display: flex;
     justify-content: left;
     align-items: center;
-    font-family: 'Hind', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     font-size: 24px !important;
 }
 
 h3 {
-    font-family: 'Hind', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     align-items: center;
     text-align: center;
     font-size: 26px !important;
@@ -77,7 +77,7 @@ h4 {
     justify-content: left;
     align-items: center;
     margin: 5px auto !important;
-    font-family: 'Hind', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     font-size: 24px !important;
     color: white !important;
 }
@@ -87,7 +87,7 @@ h5 {
     justify-content: center;
     align-items: center;
     margin: 5px auto !important;
-    font-family: 'Hind', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     font-size: 24px !important;
     color: white !important;
     background-color: #2FC2C7;
@@ -98,7 +98,7 @@ h6 {
     justify-content: center;
     align-items: center;
     margin: 5px auto !important;
-    font-family: 'Hind', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
     font-size: 24px !important;
     color: white !important;
 }
@@ -131,6 +131,7 @@ p {
 .ptech {
     text-align: center !important;
     padding: 0 25px;
+    margin-top: 5rem;
 }
 
 .caption {
@@ -464,6 +465,7 @@ p {
     flex-wrap: wrap;
     overflow: scroll;
     margin-bottom: 100px;
+    margin-top: 5rem;
 }
 
 /* Music */
@@ -474,7 +476,7 @@ p {
     align-content: center;
     flex-wrap: wrap;
     margin-bottom: 11rem;
-    overflow: scroll;
+    margin-top: 5rem;
 }
 
 .soundcloud {
