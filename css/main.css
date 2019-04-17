@@ -207,8 +207,13 @@ p {
 .personal-img {
     width: 350px;
     height: 330px;
-    border: 5px solid #2FC2C7 !important;
+    border-radius: 2%;
+}
+
+.img-border {
+    border: 5px solid black;
     box-shadow: black 0 0 10px;
+    height: 340px;
     border-radius: 3%;
 }
 
