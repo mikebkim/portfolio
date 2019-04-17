@@ -16,6 +16,16 @@ body, html {
 .intro-name {
     color: #E75371;
     font-family: 'Hind', sans-serif;
+    font-size: 30px;
+    display: flex;
+    text-align: center !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-name2 {
+    color: #E75371;
+    font-family: 'Hind', sans-serif;
     font-size: 32px;
     display: flex;
     text-align: center !important;
