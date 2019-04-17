@@ -152,7 +152,7 @@ p {
 
 .nav-link {
     color: white !important;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .fa.fa-th-list {
@@ -473,7 +473,7 @@ p {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    margin-bottom: 11rem;
     overflow: scroll;
 }
 
@@ -664,6 +664,7 @@ iframe {
     background-color: #31363E;
     color: white;
     padding-top: 1px;
+    margin: -80px 0;
 }
 
 .pfoot {
