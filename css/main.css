@@ -218,14 +218,6 @@ p {
 .personal-img {
     width: 330px;
     height: 310px;
-    border-radius: 2%;
-}
-
-.img-border {
-    border: 5px solid black;
-    box-shadow: black 0 0 10px;
-    height: 320px;
-    border-radius: 3%;
 }
 
 /* .banner.about {
@@ -676,6 +668,7 @@ iframe {
     color: white;
     padding-top: 1px;
     margin: -80px 0;
+    height: 20rem;
 }
 
 .pfoot {
