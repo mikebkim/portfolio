@@ -164,13 +164,13 @@ p {
 .nav-link {
     color: white !important;
     font-size: 16px;
-    transition: all 0.4s ease-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .nav-link:hover {
     color: #E75371 !important;
     font-size: 16px;
-    transition: all 0.4s ease-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .fa.fa-th-list {
@@ -197,13 +197,13 @@ p {
     border-bottom: 0.2rem solid #2FC2C7;
     left: 50%;
     right: 50%;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .hover-underline-menu .menu .underline-from-center:hover::after {
     left: 5px;
     right: 5px;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
 }
 
 /* Banner */
@@ -269,6 +269,10 @@ p {
 }
 
 .btn.btn-secondary {
+    transition: .3s ease-in-out !important;
+    background-color: .3s ease-in-out !important;
+    border-color: .3s ease-in-out !important;
+    box-shadow: .3s ease-in-out !important;
     color: #E75371 !important;
     background-color: transparent;
     border-color: #E75371;
@@ -277,10 +281,10 @@ p {
 }
 
 .btn.btn-secondary:hover {
-    transition: .15s ease-in-out !important;
-    background-color: .15s ease-in-out !important;
-    border-color: .15s ease-in-out !important;
-    box-shadow: .15s ease-in-out !important;
+    transition: .3s ease-in-out !important;
+    background-color: .3s ease-in-out !important;
+    border-color: .3s ease-in-out !important;
+    box-shadow: .3s ease-in-out !important;
     color: white !important;
     background-color: #2FC2C7 !important;
     border-color: #2FC2C7 !important;
@@ -390,7 +394,7 @@ p {
     background-color: white;
     border: 2px solid #E75371;
     border-radius: 8%;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .music-item {
@@ -405,19 +409,20 @@ p {
     background-color: white;
     border: 2px solid #21C2C8;
     border-radius: 8%;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .skills-item:hover {
     transition: all 0.3s ease-in;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    box-shadow: 0px 0px 15px #21C2C8;;
+    box-shadow: 0px 0px 15px #21C2C8;
+    ;
     border: 2px solid rgba(33, 194, 200, 0.5);
 }
 
 .music-item:hover {
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     box-shadow: 0px 0px 15px #21C2C8;
@@ -455,11 +460,11 @@ p {
     width: 100%;
     height: 50%;
     border: solid #2FC2C7 2px;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .img-responsive2:hover {
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
     box-shadow: 0px 0px 25px #2FC2C7;
@@ -473,11 +478,11 @@ p {
     width: 100%;
     height: 50%;
     border: solid #E75371 2px;
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .img-responsive3:hover {
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
     box-shadow: 0px 0px 25px #E75371;
@@ -529,7 +534,7 @@ p {
 
 .fa.fa-soundcloud.logo:hover {
     color: #FF7200;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
@@ -541,7 +546,7 @@ p {
 
 .fa.fa-spotify.logo:hover {
     color: #2ED566;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
@@ -589,6 +594,10 @@ iframe {
 /* Resume */
 
 .btn.btn-default {
+    transition: .3s ease-in-out !important;
+    background-color: .3s ease-in-out !important;
+    border-color: .3s ease-in-out !important;
+    box-shadow: .3s ease-in-out !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -600,10 +609,10 @@ iframe {
 }
 
 .btn.btn-default:hover {
-    transition: .15s ease-in-out !important;
-    background-color: .15s ease-in-out !important;
-    border-color: .15s ease-in-out !important;
-    box-shadow: .15s ease-in-out !important;
+    transition: .3s ease-in-out !important;
+    background-color: .3s ease-in-out !important;
+    border-color: .3s ease-in-out !important;
+    box-shadow: .3s ease-in-out !important;
     color: white !important;
     background-color: #2FC2C7 !important;
     border-color: #2FC2C7 !important;
@@ -667,11 +676,11 @@ iframe {
     left: 16px;
     top: 13px;
     font-size: 19px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     z-index: 1;
 }
 
@@ -682,6 +691,23 @@ iframe {
 }
 
 /* Footer */
+
+.email-link {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.email-link:hover {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: #2FC2C7 !important;
+}
 
 ::-webkit-scrollbar {
     display: none;
@@ -706,47 +732,47 @@ iframe {
     font-size: 22px;
     margin: 3px -5px;
     padding-top: 22px;
-    transition: all 0.5s ease-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .fa.fa-github.foot:hover, .fa.fa-github:hover {
     color: rgb(99, 99, 99);
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
 }
 
 .fa.fa-linkedin.foot:hover, .fa.fa-linkedin:hover {
     color: #378EBF;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
 }
 
 .fa.fa-twitter.foot:hover, .fa.fa-twitter:hover {
     color: #1DA1F2;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
 }
 
 .fa.fa-soundcloud.foot:hover, .fa.fa-soundcloud:hover {
     color: #FF7200;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
 }
 
 .fa.fa-spotify.foot:hover, .fa.fa-spotify:hover {
     color: #2ED566;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
 }
 
 .fa.fa-facebook.foot:hover, .fa.fa-facebook:hover {
     color: #4267B2;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
 }
@@ -756,7 +782,7 @@ iframe {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
 }
@@ -972,7 +998,7 @@ iframe {
     justify-content: center;
     margin: 0 auto;
     font-size: 40px;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     -webkit-animation: pulse 4s infinite;
     -moz-animation: pulse 4s infinite;
     animation: pulse 4s infinite;
@@ -1069,6 +1095,10 @@ input:focus {
 }
 
 .btn-primary {
+    transition: .3s ease-in-out !important;
+    background-color: .3s ease-in-out !important;
+    border-color: .3s ease-in-out !important;
+    box-shadow: .3s ease-in-out !important;
     width: 100px;
     border-radius: .25rem;
     border: 2px solid #E75371 !important;
@@ -1079,10 +1109,10 @@ input:focus {
 }
 
 .btn-primary:hover {
-    transition: .15s ease-in-out !important;
-    background-color: .15s ease-in-out !important;
-    border-color: .15s ease-in-out !important;
-    box-shadow: .15s ease-in-out !important;
+    transition: .3s ease-in-out !important;
+    background-color: .3s ease-in-out !important;
+    border-color: .3s ease-in-out !important;
+    box-shadow: .3s ease-in-out !important;
     color: white !important;
     background-color: #2FC2C7 !important;
     border-color: #2FC2C7 !important;
