@@ -164,6 +164,13 @@ p {
 .nav-link {
     color: white !important;
     font-size: 16px;
+    transition: all 0.4s ease-out;
+}
+
+.nav-link:hover {
+    color: #E75371 !important;
+    font-size: 16px;
+    transition: all 0.4s ease-out;
 }
 
 .fa.fa-th-list {
@@ -176,7 +183,7 @@ p {
 }
 
 .hover-underline-menu .menu a {
-    color: #fefefe;
+    color: #2FC2C7;
     padding: .5rem 1.3rem;
 }
 
@@ -188,7 +195,7 @@ p {
     content: "";
     position: absolute;
     top: calc(80% - 0.125rem);
-    border-bottom: 0.2rem solid #fefefe;
+    border-bottom: 0.2rem solid #2FC2C7;
     left: 50%;
     right: 50%;
     transition: all 0.3s ease-out;
