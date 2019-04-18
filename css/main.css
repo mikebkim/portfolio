@@ -9,8 +9,8 @@ body, html {
 
 .jumbotron {
     background-color: #33383F !important;
-    margin: 0px 0 -53px 0 !important;
-    padding-bottom: 6rem !important;
+    margin: 0 !important;
+    padding-bottom: 2rem !important;
 }
 
 .intro-name {
