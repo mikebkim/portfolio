@@ -356,7 +356,7 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border: solid black 5px;
+    border: solid #2FC2C7 5px;
     margin: 20px;
     border-radius: 5%;
 }
