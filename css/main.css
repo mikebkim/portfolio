@@ -273,8 +273,8 @@ p {
     background-color: .3s ease-in-out !important;
     border-color: .3s ease-in-out !important;
     box-shadow: .3s ease-in-out !important;
-    color: #E75371 !important;
-    background-color: transparent;
+    color: white !important;
+    background-color: #E75371;
     border-color: #E75371;
     border: 2px solid #E75371;
     font-weight: bolder !important;
