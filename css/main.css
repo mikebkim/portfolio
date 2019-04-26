@@ -794,6 +794,14 @@ iframe {
 
 /* Paint Brush */
 
+/* .hr-titles:before {
+    -webkit-animation: color-change 5s infinite !important;
+    -moz-animation: color-change 5s infinite !important;
+    -o-animation: color-change 5s infinite !important;
+    -ms-animation: color-change 5s infinite !important;
+    animation: color-change 5s infinite !important;
+} */
+
 .fa.fa-paint-brush {
     display: flex;
     justify-content: center;
