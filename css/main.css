@@ -794,12 +794,30 @@ iframe {
 
 /* Paint Brush */
 
-/* .hr-titles:before {
-    -webkit-animation: color-change 5s infinite !important;
-    -moz-animation: color-change 5s infinite !important;
-    -o-animation: color-change 5s infinite !important;
-    -ms-animation: color-change 5s infinite !important;
-    animation: color-change 5s infinite !important;
+/* .hr-titles {
+    -webkit-animation: background-color 5s linear !important;
+    -moz-animation: background-color 5s linear !important;
+    -o-animation: background-color 5s linear !important;
+    -ms-animation: background-color 5s linear !important;
+    animation: background-color 5s linear !important;
+}
+
+@-webkit-keyframes background-color {
+    0% {
+        color: red;
+    }
+    20% {
+        color: orange;
+    }
+}
+
+@keyframes background-color {
+    0% {
+        color: red;
+    }
+    20% {
+        color: orange;
+    }
 } */
 
 .fa.fa-paint-brush {
