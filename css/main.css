@@ -1158,13 +1158,13 @@ iframe {
 input {
     width: 1000px;
     margin: 20px !important;
-    height: 3em;
+    min-height: 3em !important;
     border: 2px solid #21C2C8 !important;
 }
 
 textarea {
     margin: 20px !important;
-    height: 15rem;
+    min-height: 15rem !important;
     border: 2px solid #21C2C8 !important;
 }
 
