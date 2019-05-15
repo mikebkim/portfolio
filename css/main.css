@@ -228,6 +228,13 @@ p {
     border-radius: 5%;
 }
 
+.personal-panda {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .flip-card {
     background-color: transparent;
     width: 330px;
