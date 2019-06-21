@@ -884,7 +884,6 @@ iframe {
     background-color: white;
     border-radius: 50%;
     border: 3px solid black;
-    box-shadow: 0 0 15px black;
 }
 
 .fa-paint-brush:before {
@@ -1036,8 +1035,6 @@ iframe {
     background-color: white;
     border-radius: 50%;
     border: 3px solid black;
-    box-shadow: 0 0 15px black;
-    box-shadow: 0 0 15px black;
 }
 
 .fa.fa-spinner:hover {
@@ -1130,7 +1127,6 @@ iframe {
     background-color: white;
     border-radius: 50%;
     border: 3px solid black;
-    box-shadow: 0 0 15px black;
 }
 
 .fa-tv:before {
