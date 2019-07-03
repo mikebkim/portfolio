@@ -508,7 +508,7 @@ p {
     align-content: center;
     width: 100%;
     height: 50%;
-    border: solid #2FC2C7 2px;
+    border: solid #E75371 2px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -516,8 +516,8 @@ p {
     transition: all 0.3s ease-in-out;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
-    box-shadow: 0px 0px 25px #2FC2C7;
-    border: solid rgba(47, 194, 199, 0.5) 2px;
+    box-shadow: 0px 0px 25px #E75371;
+    border: solid rgba(231, 83, 113, 0.5) 2px;
 }
 
 .img-responsive3 {
@@ -526,7 +526,7 @@ p {
     align-content: center;
     width: 100%;
     height: 50%;
-    border: solid #E75371 2px;
+    border: solid #2FC2C7 2px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -534,8 +534,8 @@ p {
     transition: all 0.3s ease-in-out;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
-    box-shadow: 0px 0px 25px #E75371;
-    border: solid rgba(231, 83, 113, 0.5) 2px;
+    box-shadow: 0px 0px 25px #2FC2C7;
+    border: solid rgba(47, 194, 199, 0.5) 2px;
 }
 
 .projects-flex {
